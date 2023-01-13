@@ -5,7 +5,7 @@ public class VetoresEMatrizes {
 	public static void main(String[] args) {
 		   //Exercicio 1
 		  
-	    /*int aux;
+	    int aux;
 	    int listaNumerica[] = {2, 5, 1, 3, 4, 9, 7, 8, 100, 6};
 	    //inteiro tamanhoDoVetor = u.numero_elementos(listaNumerica) 
 
@@ -24,11 +24,11 @@ public class VetoresEMatrizes {
 	      }
 	  
 	    }
-	  System.out.printf("\n", listaNumerica);*/
+	  System.out.printf("\n", listaNumerica);
 
 	    //Exercicio 2
 
-	   /* int elementoslista[] = {2,5,1,3,4,9,7,8,10,6};
+	    int elementoslista[] = {2,5,1,3,4,9,7,8,10,6};
 	    int elementosIndicesPares[5];
 	    int indice01 = 0;
 	    int elementosPares[5];
@@ -54,15 +54,15 @@ public class VetoresEMatrizes {
 	    }
 	      mediaElementos = somaElementos / tamanhoLista;
 
-	      System.out.printf("\nElementos nos índices pares: \n", elementosIndicesPares);
+	      System.out.printf("\nElementos nos Ã­ndices pares: \n", elementosIndicesPares);
 	      System.out.printf("\nElementos pares: \n", elementosPares);
 	      System.out.printf("\nSoma: \n", somaElementos);
-	      System.out.printf("\nMédia: \n", mediaElementos); */
+	      System.out.printf("\nMÃ©dia: \n", mediaElementos); 
 
 	      //Exercicio 3
 
 	    
-	   /* int listaDiagonais[][] = {{1,2,3}, {4,5,6}, {7,8,9}};
+	    int listaDiagonais[][] = {{1,2,3}, {4,5,6}, {7,8,9}};
 	    int somaPrincipal = 0;
 	    int somaSecundaria = 0;
 
@@ -77,7 +77,7 @@ public class VetoresEMatrizes {
 	      }
 	    }
 
-	    System.out.println("\nElementos da Diagonal Secundária:\n");
+	    System.out.println("\nElementos da Diagonal SecundÃ¡ria:\n");
 
 	    for(inteiro x = 0; x < 3; x++) {
 	      for(inteiro y = 0; y < 3; y++) {
@@ -90,12 +90,12 @@ public class VetoresEMatrizes {
 	    }
 
 	    System.out.println("\nSoma dos Elementos da Diagonal Principal:\n", somaPrincipal);
-	    System.out.println("\nSoma dos Elementos da Diagonal Secundária:\n", somaSecundaria);*/
+	    System.out.println("\nSoma dos Elementos da Diagonal SecundÃ¡ria:\n", somaSecundaria);
 
 
 	    //Exercicio 4
 
-/*	    real notasLista[10][4] = {{4,5,7,3},{2.5,6.5,4.7,8},{10,8.5,9.5,8},;
+	    real notasLista[10][4] = {{4,5,7,3},{2.5,6.5,4.7,8},{10,8.5,9.5,8},;
 	      {9,6.5,7.6,8.2},{5,5,5,6.3},{7,8,9,8.5},{5.5,3.5,2.5,1},;
 	      {8,9,10,9.5},{5.6,5.8,6.5,7},{7.5,8.5,9.5,10}};
 
@@ -106,7 +106,7 @@ public class VetoresEMatrizes {
 	      }
 	      mediaLista[x] = mat.arredondar(mediaAluno / 4, 1);
 	    }
-	    System.out.println("M�dia de Alunos:\n");
+	    System.out.println("Média de Alunos:\n");
 	    for(inteiro x = 0; x < 10; x++){
 	      cadeia espaco= " | ";
 
@@ -115,4 +115,4 @@ public class VetoresEMatrizes {
 	      System.out.println("espaco, mediaLista[x]");
 	    }
 	  }
-}*/
+}
